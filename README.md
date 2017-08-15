@@ -1,7 +1,8 @@
 # ICO-Code
-This repository includes token creation and token sales code.
-CrowdSale Functions (yellow shadows are the added ones):
-Token.sol (main contract: AssetToken):
+This repository includes token creation and token sales code.  
+## CrowdSale Functions (yellow shadows are the added ones):  
+
+### Token.sol (main contract: AssetToken):
 1.	AssetToken ():  total supply, administrator, token name, symbol and decimal units are set up.
 2.	transfer ():  transfer tokens from your address to another. 
 3.	balance_fun (): check the balance of specific address.
@@ -16,7 +17,8 @@ Following functions need administrator’s allowance to execute:
 11.	setPrices_onlyAdmin (): set tokens' buying and selling prices.
 12.	liquidate_onlyAdmin (): liquidate ether to administrator’s address.
 13.	selfdestruct_onlyAdmin(): self destruct the tokens.
-Crowdsale-stage-4.sol (main contract: CrowdSale):
+
+### Crowdsale-stage-4.sol (main contract: CrowdSale):
 1.	CrowdSale (): set up parameters of lasting time, campaign URL, beneficiary address, token address, token’s value by ether, minimum and maximum of funding.
 2.	contribute (): let investor send ether to contract address to get tokens. And check if ICO expires.
 3.	checkIfFundingCompleteOrExpired (): check if ICO completes or expires.
