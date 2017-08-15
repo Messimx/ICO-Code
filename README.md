@@ -1,6 +1,6 @@
 # ICO-Code
 This repository includes token creation and token sales code.  
-## CrowdSale Functions (yellow shadows are the added ones):  
+## CrowdSale Functions:  
 
 ### Token.sol (main contract: AssetToken):
 1.	AssetToken ():  total supply, administrator, token name, symbol and decimal units are set up.
